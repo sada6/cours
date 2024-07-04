@@ -1,0 +1,16 @@
+Les commandes utilisées pendant le cours
+
+.\mvnw.cmd clean -- pour lancer le netoyage
+.\mvnw.cmd clean install -DskipTests -- ensuite installer sans faire de teste
+pour lier une application spring boot on doit installer
+les bibliotheque jpa,mysqlconncetor j, 
+dans resources-application.properties on fait des configurations
+
+spring.application.name=todolist
+
+spring.datasource.driver-class-name=com.mysql.jdbc.Dirver 
+spring.datasource.name=todolist
+spring.datasource.username=odc 
+spring.datasource.password=123456
+spring.datasource.url=jdbc:mysql:3306/todolist
+
